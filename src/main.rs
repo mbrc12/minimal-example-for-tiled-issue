@@ -1,8 +1,8 @@
-mod tiled_fix;
+mod tiled;
 
 use bevy::prelude::*;
 use bevy_ecs_tilemap::TilemapPlugin;
-use tiled_fix::{TiledMapPlugin, TiledMapBundle};
+use tiled::{TiledMapPlugin, TiledMapBundle};
 
 
 fn setup_graphics(mut commands: Commands, server: Res<AssetServer>) {
